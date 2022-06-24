@@ -1,0 +1,71 @@
+.sub_left > img {
+  width: 80px;
+}
+.sub_left {
+  display: flex;
+  flex: 1.4;
+  align-items: center;
+}
+.ulll > li > p:first-child {
+  font-weight: 500;
+}
+.ulll > li > p:last-child {
+  font-size: 14px;
+  color: gray;
+}
+.actk,
+.dest__top > button:hover {
+  background-color: slateblue;
+  border-radius: 5px;
+  color: white;
+}
+.dest__top {
+  padding: 10px;
+}
+.dest__top > button {
+  padding: 10px 14px;
+  font-weight: bold;
+  border: 1px solid slateblue;
+  color: black;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.main_sub {
+  width: 100%;
+  margin: 0px 20px;
+  flex: inherit;
+}
+
+.border {
+  display: flex;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  margin: 20px 0px;
+}
+.inpubtt > input {
+  padding: 12px 20px;
+  margin: 10px 0px;
+  flex: 1.2;
+  border: 1px solid gainsboro;
+}
+.inpubtt > button {
+  padding: 12px 8px;
+  margin: 0px 10px;
+  border: none;
+  background: transparent;
+  color: blue;
+  border: 1px solid blue;
+}
+
+@media screen and (max-width: 675px) {
+  .border {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

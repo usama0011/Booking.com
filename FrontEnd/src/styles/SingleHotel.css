@@ -1,0 +1,163 @@
+.hotel_mainContainer {
+  border: 1px solid gainsboro;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+}
+.first_hotel > img {
+  border-radius: 5px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.hote_third {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  padding: 5px 0px;
+}
+.hotel_fifth {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.hotel_siz {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  justify-content: space-between;
+}
+.six_llef > p:first-child {
+  color: green;
+  font-weight: 500;
+}
+.six_llef > p:nth-child(2) {
+  color: green;
+  padding: 5px 0px;
+  font-weight: 500;
+}
+.foo {
+  font-size: 12px;
+}
+.avaiable {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.avaiable > button {
+  background-color: #0071c2;
+  color: white;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+}
+.six_right > p {
+  background-color: green;
+  color: white;
+  padding: 8px 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.six_llef > p:last-child {
+  color: green;
+  font-weight: 400;
+  font-size: 13px;
+}
+.fifthleft > p:first-child {
+  font-weight: 500;
+}
+.houp {
+  display: flex;
+  align-items: center;
+}
+.houp > p:first-child {
+  font-size: 14px;
+  text-decoration: line-through;
+  color: red;
+}
+.houp > P:last-child {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 5px;
+}
+.hote_third > p {
+  margin: 0px 3px;
+}
+.hote_fouth {
+  padding: 5px 0px;
+}
+.hote_fouth > p {
+  background-color: green;
+  width: 100px;
+  color: white;
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 4px 5px;
+}
+.hote_second {
+  display: flex;
+  font-size: 14px;
+  padding: 5px 0px;
+  align-items: center;
+}
+.hote_second > p:nth-child(odd) {
+  color: blue;
+  margin: 0px 5px;
+}
+.seond__div {
+  padding: 0px 10px;
+  width: 100%;
+}
+.hote__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.htr {
+  display: flex;
+  align-items: center;
+}
+.bl > p:first-child {
+  font-weight: 500;
+}
+.br {
+  background-color: darkblue;
+  margin: 0pc 5px;
+  color: white;
+  padding: 10px 9px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.bl > p:last-child {
+  font-weight: 400;
+  color: gray;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 775px) {
+  .hotel_mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .htl > h3 {
+    padding: 10px 0px;
+  }
+  .first_hotel > img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .seond__div {
+    font-size: 13px;
+  }
+}

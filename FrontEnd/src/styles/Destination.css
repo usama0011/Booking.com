@@ -1,0 +1,52 @@
+.city_con {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-row-gap: 15px;
+}
+.place__intrs {
+  display: grid;
+  padding: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-row-gap: 15px;
+}
+.region__con {
+  display: grid;
+  padding: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-row-gap: 15px;
+}
+.ulll > li {
+  margin-bottom: 10px;
+}
+.city__ul {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+.city__ul > li {
+  padding: 10px 0px;
+  margin-bottom: 10px;
+}
+.city__ul > li > p:first-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+.city__ul > p:last-child {
+  font-size: 13px;
+  color: gray;
+}
+.int__ull > ul {
+  padding: 0px 10px;
+}
+.int__ull > li > p:first-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+.int__ull > li {
+  margin-bottom: 10px;
+}
+.int__ull > li > p:last-child {
+  font-size: 13px;
+  color: gray;
+}

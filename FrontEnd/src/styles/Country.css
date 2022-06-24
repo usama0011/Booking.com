@@ -1,0 +1,430 @@
+.covid_box {
+  padding: 14px 13px;
+  font-size: 15px;
+  background-color: #fff0e0;
+}
+
+.gift {
+  color: mediumaquamarine;
+  margin-right: 5px;
+}
+.info_box {
+  display: flex;
+  padding: 10px 10px;
+  color: black;
+  align-items: center;
+  background-color: #ebf3ff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 10px;
+}
+.inner_covid {
+  display: flex;
+  align-items: center;
+  max-width: 68%;
+  justify-content: space-between;
+  margin: auto;
+}
+.mainbax {
+  margin-right: 10px;
+}
+.left_box_covid {
+  display: flex;
+  align-items: center;
+}
+.main_width_container {
+  max-width: 66%;
+  margin: 10px auto;
+  display: flex;
+}
+.main_right {
+  width: 100%;
+  padding: 0px 20px;
+}
+.mainrig_top {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainrig_top > button {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: none;
+  padding: 10px 14px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+.header_left > p:nth-child(1) {
+  background-color: rgb(87, 84, 84);
+  color: white;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.blue {
+  color: royalblue;
+  font-size: 19px;
+}
+.header_right > button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  background-color: royalblue;
+  margin: 0px 3px;
+  color: white;
+}
+.red {
+  color: crimson;
+  font-size: 19px;
+}
+.header_right {
+  display: flex;
+
+  align-items: center;
+}
+
+.header_left > p:nth-child(5) {
+  background-color: tomato;
+  color: white;
+  font-size: 14px;
+  padding: 5px 8px;
+  margin-right: 3px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.thumb {
+  margin: 0px 5px;
+  font-size: 24px;
+  color: #febb02;
+}
+.star {
+  color: #febb02;
+  margin: 0px 2px;
+}
+.header_left > h3 {
+  font-size: 24px;
+}
+.hotel_header {
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.location {
+  color: black;
+  font-size: 20px;
+}
+.address {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+.address > p {
+  margin-left: 5px;
+}
+.spnse {
+  display: flex;
+  align-items: center;
+  background-color: lightseagreen;
+  font-size: 14px;
+  width: 210px;
+  color: white;
+  border-radius: 3px;
+  padding: 5px 4px;
+}
+.spnse > p {
+  margin-left: 5px;
+}
+.show__more_us > p {
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.oo {
+  margin-right: 10px;
+  color: teal;
+}
+.showmoreUl > li {
+  padding: 5px 0px;
+}
+.show__more_us > button {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 0px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.gridBox {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 8px 5px;
+  height: 550px;
+  grid-template-rows: 150px 200px 150px 200px 200px 200px 200px 200px;
+  grid-template-areas:
+    "one one two two two"
+    "three three two two two"
+    "four five six seven eight";
+}
+
+.g_one > img {
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_two > img {
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_three > img {
+  margin-top: 4px;
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_four > img {
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_five > img {
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_six > img {
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_seven > img {
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_eight > img {
+  background-size: cover;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.g_one {
+  display: grid;
+  grid-area: one;
+}
+.g_two {
+  display: grid;
+  grid-area: two;
+}
+.g_three {
+  display: grid;
+  grid-area: three;
+}
+.g_four {
+  display: grid;
+  grid-area: four;
+}
+.g_five {
+  display: grid;
+  grid-area: five;
+}
+.g_six {
+  display: grid;
+  grid-area: six;
+}
+.g_seven {
+  display: grid;
+  grid-area: seven;
+}
+.g_eight {
+  display: grid;
+  grid-area: eight;
+  position: relative;
+}
+.more {
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  top: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  height: 100%;
+  padding-inline-start: 5px;
+  cursor: pointer;
+}
+.mee {
+  width: 40px;
+  color: white;
+  position: absolute;
+  right: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  top: 50px;
+}
+.outerLayout {
+  position: fixed;
+  top: 79px;
+  padding: 0px;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  width: 100%;
+  height: 700px;
+  margin: auto;
+  z-index: 999;
+}
+.arro_lar:hover {
+  background-color: rgb(235, 232, 232);
+}
+.arro_lar {
+  position: absolute;
+  top: 0;
+  background-color: whitesmoke;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 999;
+  font-size: 25px;
+  padding: 8px 5px;
+  color: gray;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: auto 20px;
+}
+.innerLayout {
+  max-width: 60%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+}
+.innerLayout > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+@media screen and (max-width: 1073px) {
+  .main_width_container {
+    max-width: 100%;
+  }
+  .mainrig_top > button {
+    margin-bottom: 5px;
+  }
+  .header_right {
+    margin-top: 5px;
+  }
+  .hotel_header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .main_width_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainbax {
+    margin: 5px 20px;
+  }
+  .mainrig_top {
+    margin-top: 20px;
+  }
+  .gridBox {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 8px 5px;
+    height: 1030px;
+    grid-template-rows: 150px 200px 150px 200px 200px 200px 200px 200px;
+    grid-template-areas:
+      "one one two two two"
+      "three three two two two"
+      "four four five five five"
+      "six six six seven seven"
+      "eight eight eight eight eight";
+  }
+  .more {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5));
+  }
+  .arro_lar {
+    width: 30px;
+    height: 30px;
+    margin: auto 40px;
+  }
+  .innerLayout {
+    max-width: 90%;
+    height: 400px;
+  }
+}

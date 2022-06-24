@@ -1,0 +1,28 @@
+.footer {
+  max-width: 67%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.footer > ul {
+  margin: 10px 0px;
+}
+
+.footer > ul > li {
+  color: blue;
+  font-size: 13px;
+  padding: 8px 0px;
+  cursor: pointer;
+}
+.footer > ul > li:hover {
+  color: coral;
+}
+@media screen and (max-width: 675px) {
+  .footer {
+    max-width: 100%;
+    padding: 15px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}

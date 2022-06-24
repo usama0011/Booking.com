@@ -1,0 +1,162 @@
+.main__contries_part {
+  max-width: 68%;
+  margin: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.inner_type {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.sineg_search {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.date__contain {
+  z-index: 999;
+  position: absolute;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  left: 0;
+}
+.inputBox {
+  display: flex;
+  font-size: 15px;
+  color: rgb(102, 96, 96);
+  width: 100%;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  position: relative;
+  align-items: center;
+}
+.iq {
+  position: absolute;
+  left: 10px;
+}
+.inputBox > input {
+  border: none;
+  flex: 1;
+  margin-top: 2px;
+}
+.inner_type {
+  margin-top: 40px;
+  display: flex;
+}
+.left__country > h4 {
+  padding: 10px 0px;
+}
+.sineg_search > p {
+  font-weight: normal;
+  font-size: 14px;
+}
+.left__country {
+  position: sticky;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  top: 100px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: #febb02;
+  color: black;
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+.left__right {
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.inner__hotels > h3 {
+  padding-bottom: 10px;
+}
+.buttons__list {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 10px;
+}
+.bbb {
+  margin-top: 10px;
+}
+.bbb > button {
+  background-color: #0071c2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.buttons__list > button {
+  border: 1px solid blue;
+  color: black;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border: none;
+  outline: none;
+  margin: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+@media screen and (max-width: 1073px) {
+  .main__contries_part {
+    max-width: 100%;
+    margin: 0px 10px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .left__country {
+    position: sticky;
+    width: fit-content;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 8px;
+    top: 100px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: #febb02;
+    color: black;
+    height: fit-content;
+  }
+  .inputBox {
+    font-size: 12px;
+    position: relative;
+    padding: 8px 5px;
+    width: 100%;
+  }
+  .iq {
+    display: none;
+  }
+  .left__right {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .sick {
+    position: sticky;
+    top: 80px;
+    width: 100%;
+  }
+  .left__country {
+    width: 100%;
+  }
+  .iq {
+    display: block;
+  }
+  .inputBox {
+    padding: 10px 30px;
+  }
+
+  .inner_type {
+    display: flex;
+    flex-direction: column;
+  }
+}
